@@ -13,3 +13,6 @@
 
 # KiCad cache
 fp-info-cache
+
+# macOS
+.DS_Store
