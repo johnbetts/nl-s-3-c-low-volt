@@ -1,4 +1,4 @@
-### Footprint positions - created on 2026-02-19T00:08:17-0600 ###
+### Footprint positions - created on 2026-02-19T00:22:15-0600 ###
 ### Printed by KiCad version 9.0.7
 ## Unit = mm, Angle = deg.
 ## Side : top
@@ -16,7 +16,7 @@ C5-3v1            1uF_10v_DC                                   C_0805_2012Metric
 C6                100nF,_35V                                   C_0805_2012Metric                                               132.5200  -102.5360   90.0000  top
 D1-Opto1          1N4148                                       D_0805_2012Metric                                                76.2000   -53.3400  180.0000  top
 J1                ESP32-S3-ETH-WAVETREE-Footprint              ESP32-PinHeader_2x20_P2.54mm_Vertical                            96.7600   -50.8000    0.0000  top
-J2                ILI9341_TFT_2.8"_Display_with_XPT2046_Touch  PinHeader_1x13_P1.00mm_Vertical                                  81.2800   -98.4400  180.0000  top
+J2                ILI9341_TFT_2.8"_Display_with_XPT2046_Touch  PinHeader_1x13_P2.54mm_Vertical                                  58.2500  -101.9850  180.0000  top
 J3                4_Channel_5v_Relay_Connector                 TerminalBlock_Phoenix_MKDS-1,5-6-5.08_1x06_P5.08mm_Horizontal   155.0000   -67.0000   90.0000  top
 J4                SPDT_(on)-off-(on)                           TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal    76.7500   -78.8300   90.0000  top
 J5                ADC_Inputs_-_24v_side                        TerminalBlock_Phoenix_MKDS-1,5-7-5.08_1x07_P5.08mm_Horizontal   155.0000  -103.9950   90.0000  top

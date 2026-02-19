@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 4.3,
-          "height": 4.3,
-          "width": 4.3
+          "drill": 1.0,
+          "height": 1.7,
+          "width": 1.7
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -586,7 +586,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "output/v1/",
+      "plot": "output/v2/",
       "pos_files": "output/v1/",
       "specctra_dsn": "",
       "step": "",

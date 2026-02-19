@@ -1,0 +1,44 @@
+Comment,Designator,Footprint,LCSC Part #
+33K 0805 Resistor,R2-Throw-A1,R_0805_2012Metric,C17032
+1K 0805 Resistor,R1-Buzzer1,R_0805_2012Metric,C17513
+1K 0805 Resistor,R18-A1-2,R_0805_2012Metric,C17513
+1K 0805 Resistor,R9-A2-2,R_0805_2012Metric,C17513
+1K 0805 Resistor,R8-A2-1,R_0805_2012Metric,C17513
+1K 0805 Resistor,R13-Opto-GND1,R_0805_2012Metric,C17513
+1K 0805 Resistor,R10-A2-3,R_0805_2012Metric,C17513
+1K 0805 Resistor,R17-A1-3,R_0805_2012Metric,C17513
+1K 0805 Resistor,R11-Opto-In1,R_0805_2012Metric,C17513
+10K 0805 Resistor,R5,R_0805_2012Metric,C17407
+10K 0805 Resistor,R7-SDA1,R_0805_2012Metric,C17407
+10K 0805 Resistor,R6-SCL1,R_0805_2012Metric,C17407
+10K 0805 Resistor,R12-Opto-PullUp1,R_0805_2012Metric,C17407
+1N4148 SOD-323 Diode,D1-Opto1,D_0805_2012Metric,C81598
+100K 0805 Resistor,R3-ThrowB1,R_0805_2012Metric,C17408
+100K 0805 Resistor,R4-Common1,R_0805_2012Metric,C17408
+2.2K 0805 Resistor,R15-Purple1,R_0805_2012Metric,C17520
+22K 0805 Resistor,R16-A2-0,R_0805_2012Metric,C17560
+100nF 50V 0805 Capacitor,C1,C_0805_2012Metric,C49678
+100nF 50V 0805 Capacitor,C2,C_0805_2012Metric,C49678
+100nF 50V 0805 Capacitor,C3,C_0805_2012Metric,C49678
+100nF 50V 0805 Capacitor,C4,C_0805_2012Metric,C49678
+100nF 50V 0805 Capacitor,C5,C_0805_2012Metric,C49678
+100nF 50V 0805 Capacitor,C6,C_0805_2012Metric,C49678
+100nF 50V 0805 Capacitor,C3-3v1,C_0805_2012Metric,C49678
+100nF 50V 0805 Capacitor,C1-5v1,C_0805_2012Metric,C49678
+47uF 10V 0805 Capacitor,C4-3v1,C_0805_2012Metric,C76636
+100uF 10V 0805 Capacitor,C2-5v1,C_0805_2012Metric,C15008
+1uF 10V 0805 Capacitor,C5-3v1,C_0805_2012Metric,C28323
+ADS1115 16-bit ADC,U1,TSSOP-10_3x3mm_P0.5mm,C37593
+ADS1115 16-bit ADC,U2,TSSOP-10_3x3mm_P0.5mm,C37593
+PC817 Optocoupler SOP-4,U3-Opto1,SOP-4_4.4x2.6mm_P1.27mm,C66652
+S8050 NPN Transistor SOT-23,Q1-Buzzer1,SOT-23,C2146
+MLT-8530 Passive Buzzer,LS1-Buzzer1,MLT8530,C94599
+SPDT Slide Switch,SW1,SW_SPDT_Shouhan_MSK12C02,
+2-pin 5.08mm Screw Terminal,J6,TerminalBlock_Phoenix_MKDS-1.5-2-5.08_1x02_P5.08mm_Horizontal,C8465
+2-pin 5.08mm Screw Terminal,J8,TerminalBlock_Phoenix_MKDS-1.5-2-5.08_1x02_P5.08mm_Horizontal,C8465
+3-pin 5.08mm Screw Terminal,J4,TerminalBlock_Phoenix_MKDS-1.5-3-5.08_1x03_P5.08mm_Horizontal,C72334
+6-pin 5.08mm Screw Terminal,J3,TerminalBlock_Phoenix_MKDS-1.5-6-5.08_1x06_P5.08mm_Horizontal,C42377751
+7-pin 5.08mm Screw Terminal,J5,TerminalBlock_Phoenix_MKDS-1.5-7-5.08_1x07_P5.08mm_Horizontal,C42377750
+1x13 Male Pin Header 2.54mm,J2,PinHeader_1x13_P2.54mm_Vertical,C2337
+1x20 Female Header 2.54mm,J1-LEFT,PinSocket_1x20_P2.54mm_Vertical,C27438
+1x20 Female Header 2.54mm,J1-RIGHT,PinSocket_1x20_P2.54mm_Vertical,C27438
