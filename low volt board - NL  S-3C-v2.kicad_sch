@@ -10790,7 +10790,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MLT8530"
+		(property "Footprint" "MLT-8530:MLT8530"
 			(at 179.07 229.54 0)
 			(effects
 				(font
