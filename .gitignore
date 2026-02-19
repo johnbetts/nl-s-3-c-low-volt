@@ -10,3 +10,6 @@
 # KiCad temp files
 *.tmp
 *~
+
+# KiCad cache
+fp-info-cache

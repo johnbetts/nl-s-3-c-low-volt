@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.0,
-          "height": 1.7,
-          "width": 1.7
+          "drill": 4.3,
+          "height": 4.3,
+          "width": 4.3
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -131,7 +131,7 @@
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
-        "min_resolved_spokes": 2,
+        "min_resolved_spokes": 3,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
@@ -464,7 +464,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "low volt board - NL  S-3C.kicad_pro",
+    "filename": "low volt board - NL  S-3C-v2.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -488,20 +488,49 @@
         "wire_width": 6
       },
       {
-        "clearance": 0.2,
-        "name": "PWR_3V",
+        "clearance": 0.5,
+        "name": "24V",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.5
+        "track_width": 0.5,
+        "via_diameter": 0.8
       },
       {
-        "clearance": 0.2,
-        "name": "PWR_5V",
+        "clearance": 0.3,
+        "name": "ADC",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 1.0
+        "track_width": 0.5,
+        "via_diameter": 0.8
+      },
+      {
+        "clearance": 0.2,
+        "name": "Buzzer",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.4,
+        "via_diameter": 0.8
+      },
+      {
+        "clearance": 0.2,
+        "name": "GND",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.75,
+        "via_diameter": 0.8
+      },
+      {
+        "clearance": 0.2,
+        "name": "PWR",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 4,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.5,
+        "via_diameter": 0.8
       }
     ],
     "meta": {
@@ -511,20 +540,44 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "PWR_3V",
+        "netclass": "PWR",
         "pattern": "*3v*"
       },
       {
-        "netclass": "PWR_5V",
+        "netclass": "PWR",
         "pattern": "*5v*"
       },
       {
-        "netclass": "PWR_3V",
-        "pattern": "3V3"
+        "netclass": "PWR",
+        "pattern": "*3V*"
       },
       {
-        "netclass": "PWR_3V",
-        "pattern": "3v_Clean"
+        "netclass": "24V",
+        "pattern": "*-E"
+      },
+      {
+        "netclass": "GND",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "*5V*"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "*adc*"
+      },
+      {
+        "netclass": "Buzzer",
+        "pattern": "*Buzzer*"
+      },
+      {
+        "netclass": "24V",
+        "pattern": "*-F*"
+      },
+      {
+        "netclass": "Buzzer",
+        "pattern": "*IO21*"
       }
     ]
   },
