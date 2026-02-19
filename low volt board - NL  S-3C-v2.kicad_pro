@@ -587,7 +587,7 @@
       "idf": "",
       "netlist": "",
       "plot": "output/v1/",
-      "pos_files": "",
+      "pos_files": "output/v1/",
       "specctra_dsn": "",
       "step": "",
       "svg": "",

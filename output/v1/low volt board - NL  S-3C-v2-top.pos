@@ -1,0 +1,48 @@
+### Footprint positions - created on 2026-02-19T00:08:17-0600 ###
+### Printed by KiCad version 9.0.7
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref             Val                                          Package                                                             PosX       PosY       Rot  Side
+C1                100nF,_35V                                   C_0805_2012Metric                                               132.5200   -97.7740  -90.0000  top
+C1-5v1            0.1uF_10v_DC                                 C_0805_2012Metric                                               139.2500   -42.4500  -90.0000  top
+C2                100nF,_35V                                   C_0805_2012Metric                                               132.5200   -93.0120   90.0000  top
+C2-5v1            100uF_10vDC                                  C_0805_2012Metric                                               144.3300   -42.4500  -90.0000  top
+C3                100nF,_35V                                   C_0805_2012Metric                                               132.5200   -88.2500   90.0000  top
+C3-3v1            100nF_10v_DC                                 C_0805_2012Metric                                               124.0100   -42.4500  -90.0000  top
+C4                100nF,_35V                                   C_0805_2012Metric                                               132.5200   -83.4880   90.0000  top
+C4-3v1            47uF_10v_DC                                  C_0805_2012Metric                                               129.0900   -42.4500  -90.0000  top
+C5                100nF,_35V                                   C_0805_2012Metric                                               132.5200   -78.7260   90.0000  top
+C5-3v1            1uF_10v_DC                                   C_0805_2012Metric                                               134.1700   -42.4500  -90.0000  top
+C6                100nF,_35V                                   C_0805_2012Metric                                               132.5200  -102.5360   90.0000  top
+D1-Opto1          1N4148                                       D_0805_2012Metric                                                76.2000   -53.3400  180.0000  top
+J1                ESP32-S3-ETH-WAVETREE-Footprint              ESP32-PinHeader_2x20_P2.54mm_Vertical                            96.7600   -50.8000    0.0000  top
+J2                ILI9341_TFT_2.8"_Display_with_XPT2046_Touch  PinHeader_1x13_P1.00mm_Vertical                                  81.2800   -98.4400  180.0000  top
+J3                4_Channel_5v_Relay_Connector                 TerminalBlock_Phoenix_MKDS-1,5-6-5.08_1x06_P5.08mm_Horizontal   155.0000   -67.0000   90.0000  top
+J4                SPDT_(on)-off-(on)                           TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal    76.7500   -78.8300   90.0000  top
+J5                ADC_Inputs_-_24v_side                        TerminalBlock_Phoenix_MKDS-1,5-7-5.08_1x07_P5.08mm_Horizontal   155.0000  -103.9950   90.0000  top
+J6                Dry_Contact_OptoCoupler                      TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal    60.9600   -58.4200   90.0000  top
+J8                5vIn                                         TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal   132.6725   -53.2950   90.0000  top
+LS1-Buzzer1       MLT-8530                                     MLT8530                                                         139.4500   -64.5500  -90.0000  top
+Q1-Buzzer1        S8050                                        SOT-23                                                          128.0200   -62.0100    0.0000  top
+R1-Buzzer1        1K                                           R_0805_2012Metric                                               129.2900   -67.0900  180.0000  top
+R2-Throw-A1       33K                                          R_0805_2012Metric                                                89.8075   -78.8300  180.0000  top
+R3-ThrowB1        100k                                         R_0805_2012Metric                                                89.8075   -68.6700  180.0000  top
+R4-Common1        100k                                         R_0805_2012Metric                                                89.8075   -73.7500  180.0000  top
+R5                10K                                          R_0805_2012Metric                                               118.8475   -93.9660    0.0000  top
+R6-SCL1           10K                                          R_0805_2012Metric                                               118.8475   -96.5060    0.0000  top
+R7-SDA1           10K                                          R_0805_2012Metric                                               118.8475  -101.5860    0.0000  top
+R8-A2-1           1K                                           R_0805_2012Metric                                               142.7725   -98.8960  180.0000  top
+R9-A2-2           1K                                           R_0805_2012Metric                                               142.7725   -93.8160  180.0000  top
+R10-A2-3          1K                                           R_0805_2012Metric                                               142.7725   -88.7360    0.0000  top
+R11-Opto-In1      R1K                                          R_0805_2012Metric                                                81.2800   -53.3400  180.0000  top
+R12-Opto-PullUp1  10K                                          R_0805_2012Metric                                                71.1200   -53.3400    0.0000  top
+R13-Opto-GND1     1K                                           R_0805_2012Metric                                                71.1200   -58.4275  -90.0000  top
+R15-Purple1       2.2K                                         R_0805_2012Metric                                               137.6000  -101.5860   90.0000  top
+R16-A2-0          22K                                          R_0805_2012Metric                                               142.7725  -103.9760    0.0000  top
+R17-A1-3          1K                                           R_0805_2012Metric                                               142.7725   -78.5760    0.0000  top
+R18-A1-2          1K                                           R_0805_2012Metric                                               142.7725   -83.6560    0.0000  top
+SW1               SW_SPDT                                      SW_SPDT_Shouhan_MSK12C02                                         88.9000   -58.4200   90.0000  top
+U1                ADS1115IDGS_-_low_volt                       TSSOP-10_3x3mm_P0.5mm                                           125.6500   -78.7260    0.0000  top
+U2                ADS1115IDGS_-_24v                            TSSOP-10_3x3mm_P0.5mm                                           125.6500   -97.8797    0.0000  top
+U3-Opto1          PC817                                        SOP-4_4.4x2.6mm_P1.27mm                                          78.7400   -58.4200  180.0000  top
+## End
