@@ -1,0 +1,12 @@
+# KiCad lock files
+*.lck
+
+# Auto-saved files
+\#auto_saved_files#
+
+# Backup directories
+*-backups/
+
+# KiCad temp files
+*.tmp
+*~
