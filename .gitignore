@@ -14,5 +14,8 @@
 # KiCad cache
 fp-info-cache
 
+# Freerouting temp files
+temp-freerouting.dsn
+
 # macOS
 .DS_Store
